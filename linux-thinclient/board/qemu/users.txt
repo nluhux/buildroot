@@ -1,0 +1,1 @@
+thinc	4535	thinc	4535	-	/home/thinc	/bin/sh	video,audio,input,weston-launch	main user for running thinclient
