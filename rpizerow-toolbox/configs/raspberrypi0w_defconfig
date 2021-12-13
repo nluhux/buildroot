@@ -20,6 +20,13 @@ BR2_PACKAGE_RPI_FIRMWARE_BOOTCODE_BIN=y
 BR2_PACKAGE_RPI_FIRMWARE_VARIANT_PI=y
 BR2_PACKAGE_RPI_FIRMWARE_CONFIG_FILE="board/raspberrypi0w/config_0w.txt"
 
+# ccache
+BR2_CCACHE=y
+BR2_CCACHE_DIR="/buildroot-ccache/"
+
+# download dir
+BR2_DL_DIR="/buildrooot-dl"
+
 # Required tools to create the SD image
 BR2_PACKAGE_HOST_DOSFSTOOLS=y
 BR2_PACKAGE_HOST_GENIMAGE=y
