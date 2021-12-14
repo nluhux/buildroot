@@ -32,7 +32,7 @@ BR2_CCACHE=y
 BR2_CCACHE_DIR="/buildroot-ccache/"
 
 # download dir
-BR2_DL_DIR="/buildrooot-dl"
+BR2_DL_DIR="/buildroot-dl"
 
 # Required tools to create the SD image
 BR2_PACKAGE_HOST_DOSFSTOOLS=y
