@@ -1,0 +1,21 @@
+# arch
+BR2_arm=y
+BR2_arm1176jzf_s=y
+BR2_ARM_EABIHF=y
+
+# download dir
+BR2_DL_DIR="/buildroot-dl"
+
+# ccache
+BR2_CCACHE=y
+BR2_CCACHE_DIR="/buildroot-ccache"
+
+# musl libc
+BR2_TOOLCHAIN_BUILDROOT_MUSL=y
+
+# no init
+# add switch_root scripts later
+BR2_INIT_NONE=y
+
+# linux kernel
+BR2_LINUX_KERNEL=y
