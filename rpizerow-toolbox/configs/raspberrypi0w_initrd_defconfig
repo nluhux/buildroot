@@ -10,6 +10,10 @@ BR2_TOOLCHAIN_BUILDROOT_CXX=y
 # use musl libc
 BR2_TOOLCHAIN_BUILDROOT_MUSL=y
 
+# remove init
+BR2_INIT_NONE=y
+# please add switch root init
+
 BR2_LINUX_KERNEL=y
 BR2_LINUX_KERNEL_CUSTOM_TARBALL=y
 BR2_LINUX_KERNEL_CUSTOM_TARBALL_LOCATION="$(call github,raspberrypi,linux,581049d718caf95f5feb00607ac748d5841cf27c)/linux-581049d718caf95f5feb00607ac748d5841cf27c.tar.gz"
