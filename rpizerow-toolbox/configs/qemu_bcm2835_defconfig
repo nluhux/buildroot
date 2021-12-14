@@ -19,3 +19,5 @@ BR2_INIT_NONE=y
 
 # linux kernel
 BR2_LINUX_KERNEL=y
+BR2_LINUX_KERNEL_USE_CUSTOM_CONFIG=y
+BR2_LINUX_KERNEL_CUSTOM_CONFIG_FILE="rpizerow-toolbox/board/qemu/bcm2835/linux.config"
